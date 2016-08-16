@@ -1,0 +1,9 @@
+{
+    "environment": "development",
+    "ruby": "/usr/bin/ruby2.1",  // "python": "/usr/bin/python2.7",
+    "port": 3000,
+    "ctls": [
+        "hook_before_watchdog_initialization=init.sh"
+    ],
+    "daemonize": false,
+}
